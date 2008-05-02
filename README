@@ -3,28 +3,27 @@ goocanvas
 A cairo-based canvas widget for GTK+
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  atk-1.18.0-1
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  libcairo2-1.4.10-1
+  cygwin-1.5.25-11
+  atk-1.20.0-1
+  gdk-pixbuf2-2.12.9-1
+  glib2-2.14.6-1
+  gtk2-x11-2.12.9-1
+  libcairo2-1.4.14-1
   libintl8-0.15-1
-  pango-1.16.5-1
+  pango-1.18.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.10-1.10-1
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  cygport-0.3.10-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gettext-devel-0.15-1
-  gtk-doc-1.8-1
-  intltool-0.35.5-1
-  libtool1.5-1.5.23a-2
+  gtk-doc-1.9-1
+  intltool-0.36.3-1
+  libtool-2.2.2-2
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -38,16 +37,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack goocanvas-0.9-X-src.tar.bz2
+  unpack goocanvas-0.10-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./goocanvas-0.9-X.cygport all
+  cygport ./goocanvas-0.10-X.cygport all
 
 This will create:
-  /usr/src/goocanvas-0.9-X-src.tar.bz2
-  /usr/src/goocanvas-0.9-X.tar.bz2
-  /usr/src/goocanvas-devel-0.9-X.tar.bz2
+  /usr/src/goocanvas-0.10-X-src.tar.bz2
+  /usr/src/goocanvas-0.10-X.tar.bz2
+  /usr/src/goocanvas-devel-0.10-X.tar.bz2
 
 -------------------------------------------
 
@@ -55,14 +54,13 @@ Files included in the binary packages:
 
 (goocanvas)
   /usr/bin/cyggoocanvas-3.dll
-  /usr/share/doc/Cygwin/goocanvas-0.9.README
-  /usr/share/doc/goocanvas-0.9/AUTHORS
-  /usr/share/doc/goocanvas-0.9/COPYING
-  /usr/share/doc/goocanvas-0.9/ChangeLog
-  /usr/share/doc/goocanvas-0.9/INSTALL
-  /usr/share/doc/goocanvas-0.9/NEWS
-  /usr/share/doc/goocanvas-0.9/README
-  /usr/share/doc/goocanvas-0.9/TODO
+  /usr/share/doc/goocanvas-0.10/AUTHORS
+  /usr/share/doc/goocanvas-0.10/COPYING
+  /usr/share/doc/goocanvas-0.10/ChangeLog
+  /usr/share/doc/goocanvas-0.10/INSTALL
+  /usr/share/doc/goocanvas-0.10/NEWS
+  /usr/share/doc/goocanvas-0.10/README
+  /usr/share/doc/goocanvas-0.10/TODO
   /usr/share/locale/en_GB/LC_MESSAGES/goocanvas.mo
   /usr/share/locale/es/LC_MESSAGES/goocanvas.mo
   /usr/share/locale/ja/LC_MESSAGES/goocanvas.mo
@@ -134,6 +132,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 0.10-1 -----
+Version bump.
 
 ----- version 0.9-1 -----
 Initial release for Cygwin.

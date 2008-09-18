@@ -1,0 +1,4 @@
+category: _obsolete
+requires: libgoocanvas3
+sdesc: "cairo-based GTK+ canvas widget (source)"
+ldesc: "A cairo-based canvas widget for GTK+"

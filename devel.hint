@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin goocanvas atk-devel glib2-devel gtk2-x11-devel libcairo-devel gettext pango-devel
+requires: cygwin libgoocanvas3 atk-devel glib2-devel gtk2-x11-devel libcairo-devel gettext pango-devel
 external-source: goocanvas
 sdesc: "cairo-based GTK+ canvas widget (development)"
 ldesc: "A cairo-based canvas widget for GTK+"

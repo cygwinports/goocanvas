@@ -1,0 +1,13 @@
+inherit gnome2
+
+DESCRIPTION="Cairo-based GTK+ canvas widget"
+HOMEPAGE="http://sourceforge.net/projects/goocanvas/"
+
+PATCH_URI="0.11-libtool22.patch"
+
+abi=3
+PKG_NAMES="${PN} lib${PN}${abi} lib${PN}-devel"
+PKG_HINTS="src lib devel"
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]="--exclude=gtk-doc usr/bin/*-${abi}.dll usr/share/"
+PKG_CONTENTS[2]="usr/include/ usr/lib/ usr/share/gtk-doc/"

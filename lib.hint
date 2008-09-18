@@ -1,4 +1,5 @@
 category: Gnome
 requires: cygwin atk glib2 gdk-pixbuf2 gtk2-x11 libcairo2 libintl8 pango
+external-source: goocanvas
 sdesc: "cairo-based GTK+ canvas widget (runtime)"
 ldesc: "A cairo-based canvas widget for GTK+"

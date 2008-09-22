@@ -37,17 +37,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack goocanvas-0.11-X-src.tar.bz2
+  unpack goocanvas-0.12-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./goocanvas-0.11-X.cygport all
+  cygport ./goocanvas-0.12-X.cygport all
 
 This will create:
-  /usr/src/goocanvas-0.11-X-src.tar.bz2
-  /usr/src/goocanvas-0.11-X.tar.bz2
-  /usr/src/libgoocanvas3-0.11-X.tar.bz2
-  /usr/src/libgoocanvas-devel-0.11-X.tar.bz2
+  /usr/src/goocanvas-0.12-X-src.tar.bz2
+  /usr/src/goocanvas-0.12-X.tar.bz2
+  /usr/src/libgoocanvas3-0.12-X.tar.bz2
+  /usr/src/libgoocanvas-devel-0.12-X.tar.bz2
 
 -------------------------------------------
 
@@ -55,13 +55,13 @@ Files included in the binary packages:
 
 (libgoocanvas3)
   /usr/bin/cyggoocanvas-3.dll
-  /usr/share/doc/goocanvas-0.11/AUTHORS
-  /usr/share/doc/goocanvas-0.11/COPYING
-  /usr/share/doc/goocanvas-0.11/ChangeLog
-  /usr/share/doc/goocanvas-0.11/INSTALL
-  /usr/share/doc/goocanvas-0.11/NEWS
-  /usr/share/doc/goocanvas-0.11/README
-  /usr/share/doc/goocanvas-0.11/TODO
+  /usr/share/doc/goocanvas-0.12/AUTHORS
+  /usr/share/doc/goocanvas-0.12/COPYING
+  /usr/share/doc/goocanvas-0.12/ChangeLog
+  /usr/share/doc/goocanvas-0.12/INSTALL
+  /usr/share/doc/goocanvas-0.12/NEWS
+  /usr/share/doc/goocanvas-0.12/README
+  /usr/share/doc/goocanvas-0.12/TODO
   /usr/share/locale/en_GB/LC_MESSAGES/goocanvas.mo
   /usr/share/locale/es/LC_MESSAGES/goocanvas.mo
   /usr/share/locale/ja/LC_MESSAGES/goocanvas.mo
@@ -134,7 +134,7 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.11-1 -----
+----- version 0.12-1 -----
 Version bump.
 
 ----- version 0.10-1 -----

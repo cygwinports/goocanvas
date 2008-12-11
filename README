@@ -4,26 +4,25 @@ A cairo-based canvas widget for GTK+
 
 Runtime requirements:
   cygwin-1.5.25-15
-  atk-1.22.0-1
-  gdk-pixbuf2-2.12.11-1
-  glib2-2.16.5-1
-  gtk2-x11-2.12.11-1
-  libcairo2-1.6.4-1
-  libintl8-0.15-1
-  pango-1.20.5-1
+  libatk1.0_0-1.24.0-1
+  libcairo2-1.8.4-1
+  libgdk_pixbuf2.0_0-2.14.5-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.5-1
+  libintl8-0.17-2
+  libpango1.0_0-1.22.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
   binutils-20080624-2
-  cygport-0.4.0-1
+  cygport-0.4.2-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  gettext-devel-0.15-1
-  gtk-doc-1.10-1
-  intltool-0.40.3-1
-  libtool-2.2.2-2
+  gettext-devel-0.17-2
+  gtk-doc-1.11-1
+  libtool-2.2.6a-1
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
@@ -37,17 +36,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack goocanvas-0.12-X-src.tar.bz2
+  unpack goocanvas-0.13-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./goocanvas-0.12-X.cygport all
+  cygport ./goocanvas-0.13-X.cygport all
 
 This will create:
-  /usr/src/goocanvas-0.12-X-src.tar.bz2
-  /usr/src/goocanvas-0.12-X.tar.bz2
-  /usr/src/libgoocanvas3-0.12-X.tar.bz2
-  /usr/src/libgoocanvas-devel-0.12-X.tar.bz2
+  /usr/src/goocanvas-0.13-X-src.tar.bz2
+  /usr/src/goocanvas-0.13-X.tar.bz2
+  /usr/src/libgoocanvas3-0.13-X.tar.bz2
+  /usr/src/libgoocanvas-devel-0.13-X.tar.bz2
 
 -------------------------------------------
 
@@ -55,13 +54,13 @@ Files included in the binary packages:
 
 (libgoocanvas3)
   /usr/bin/cyggoocanvas-3.dll
-  /usr/share/doc/goocanvas-0.12/AUTHORS
-  /usr/share/doc/goocanvas-0.12/COPYING
-  /usr/share/doc/goocanvas-0.12/ChangeLog
-  /usr/share/doc/goocanvas-0.12/INSTALL
-  /usr/share/doc/goocanvas-0.12/NEWS
-  /usr/share/doc/goocanvas-0.12/README
-  /usr/share/doc/goocanvas-0.12/TODO
+  /usr/share/doc/goocanvas-0.13/AUTHORS
+  /usr/share/doc/goocanvas-0.13/COPYING
+  /usr/share/doc/goocanvas-0.13/ChangeLog
+  /usr/share/doc/goocanvas-0.13/INSTALL
+  /usr/share/doc/goocanvas-0.13/NEWS
+  /usr/share/doc/goocanvas-0.13/README
+  /usr/share/doc/goocanvas-0.13/TODO
   /usr/share/locale/en_GB/LC_MESSAGES/goocanvas.mo
   /usr/share/locale/es/LC_MESSAGES/goocanvas.mo
   /usr/share/locale/ja/LC_MESSAGES/goocanvas.mo
@@ -133,6 +132,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 0.13-1 -----
+Version bump.
 
 ----- version 0.12-1 -----
 Version bump.
